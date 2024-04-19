@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="headPart">
+            <header class="Head">
+                <h1 class="Align">My Todo List 📝</h1>
+            </header>
+        </div>
+        <div class="Information-Part">
+            <form action="Information" class="form" method="post">
+                <div class="form-Task">
+                    <input type="text" name="text" id="Actual-task" placeholder="Enter your task" required>
+                </div>
+                <div class="form-Task">
+                    <input type="text" name="text" id="Description" placeholder="Enter your description" required>
+                </div>
+                <button type="submit" class="Submit-button">ADD TASK 📌</button>
+            </form>
+            <ul id="todo-list" class="todo-list">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
