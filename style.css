@@ -4,6 +4,21 @@ body{
     background-color: #add8e6;
 }
 
+body {
+    max-height: 2000vh;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body::-webkit-scrollbar {
     display: none;
 }
@@ -112,3 +127,8 @@ form {
     padding-right:2px;
 }
 
+@media screen and (max-width:600px) {
+    .Submit-button {
+        font-size: 0.5rem;
+    }
+}
